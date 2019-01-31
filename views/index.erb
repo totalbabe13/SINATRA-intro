@@ -3,8 +3,13 @@
  <html>
   <head></head>
   <body>
-    <p>
-      The SECRET NUMBER is <%= number %>
+    <p style="color:blue;">
+      Guess the Secret number between 1 -100!
     </p>
+    <form>
+      <input type='text' name='guess' />
+      <input type='submit' value='Guess!' />
+    </form>
+    <p style="color:red;"> <%= message %> </p>
   </body>
 </html>
